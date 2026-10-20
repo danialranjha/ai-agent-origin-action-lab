@@ -1,0 +1,15 @@
+{
+  "paper": "https://arxiv.org/html/2610.24277v1",
+  "sections": ["4.2.1", "4.2.2", "7", "Appendix G"],
+  "implementation": "Independent small policy/state-transition model. No upstream code copied or executed.",
+  "mapping": {
+    "trusted_action": "Context and arguments both trusted (P_T)",
+    "permitted_flow": "Target in both context and argument reader sets (P_F)",
+    "typing": "P_T OR P_F, modeled as egress-only",
+    "save": "P_T, modeled as consequential at a trusted origin"
+  },
+  "comparators": "origin_only and flow_only are independent diagnostic baselines, not native SOP, SOPGuard or the complete SPIDES implementation",
+  "omissions": ["real DOM", "masking", "label inference and propagation", "LLM", "browser effects", "approval workflow", "network"],
+  "limitations_probed": ["incorrect trusted label", "auto-submit effect misclassified as egress-only typing", "trusted declassification outside reader set"],
+  "upstream_repository_access": "Authenticated microsoft/SPIDES repository lookup returned HTTP 404 on 2026-10-20. No claim that the code cannot exist elsewhere."
+}

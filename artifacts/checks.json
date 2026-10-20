@@ -1,0 +1,26 @@
+{
+  "mutations": {
+    "omit_save_integrity": {
+      "errors": 0,
+      "failures": 21,
+      "skipped": 0,
+      "successful": false,
+      "tests": 11
+    },
+    "overrestrict_typing": {
+      "errors": 0,
+      "failures": 22,
+      "skipped": 0,
+      "successful": false,
+      "tests": 11
+    }
+  },
+  "normal": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "successful": true,
+    "tests": 11
+  },
+  "scope": "fixed fixtures and finite predicate matrix, no live agent efficacy"
+}

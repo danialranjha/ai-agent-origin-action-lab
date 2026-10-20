@@ -1,0 +1,7398 @@
+{
+  "expectation_mismatches": [],
+  "matrix": [
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_00000",
+      "type_allowed": true
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_00000",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_00000",
+      "type_allowed": false
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        },
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_00001",
+      "type_allowed": true
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_00001",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_00001",
+      "type_allowed": false
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_00010",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_00010",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": false
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": false,
+      "scenario": "matrix_00010",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        },
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_00011",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        },
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_00011",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": false
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": false,
+      "scenario": "matrix_00011",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_00100",
+      "type_allowed": true
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_00100",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_00100",
+      "type_allowed": false
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        },
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_00101",
+      "type_allowed": true
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_00101",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_00101",
+      "type_allowed": false
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_00110",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_00110",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": false
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": false,
+      "scenario": "matrix_00110",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        },
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_00111",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        },
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_00111",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": false
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": false,
+      "scenario": "matrix_00111",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_01000",
+      "type_allowed": true
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_01000",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_01000",
+      "type_allowed": false
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        },
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_01001",
+      "type_allowed": true
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_01001",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_01001",
+      "type_allowed": false
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_01010",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_01010",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": false
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": false,
+      "scenario": "matrix_01010",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        },
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_01011",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        },
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_01011",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": false
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": false,
+      "scenario": "matrix_01011",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "matrix_01100",
+      "type_allowed": true
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": true
+      },
+      "save_allowed": null,
+      "scenario": "matrix_01100",
+      "type_allowed": false
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "matrix_01100",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        },
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "matrix_01101",
+      "type_allowed": true
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": true
+      },
+      "save_allowed": null,
+      "scenario": "matrix_01101",
+      "type_allowed": false
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        },
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "matrix_01101",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "matrix_01110",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "matrix_01110",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "matrix_01110",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        },
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "matrix_01111",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        },
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "matrix_01111",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        },
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "matrix_01111",
+      "type_allowed": true
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_10000",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_10000",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_10000",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_10001",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_10001",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_10001",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_10010",
+      "type_allowed": false
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_10010",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": false
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": false,
+      "scenario": "matrix_10010",
+      "type_allowed": true
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_10011",
+      "type_allowed": false
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        },
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_10011",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": false
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": false,
+      "scenario": "matrix_10011",
+      "type_allowed": true
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_10100",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_10100",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_10100",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_10101",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_10101",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_10101",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_10110",
+      "type_allowed": false
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_10110",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": false
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": false,
+      "scenario": "matrix_10110",
+      "type_allowed": true
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_10111",
+      "type_allowed": false
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        },
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_10111",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": false
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": false,
+      "scenario": "matrix_10111",
+      "type_allowed": true
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_11000",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_11000",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_11000",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_11001",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_11001",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_11001",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_11010",
+      "type_allowed": false
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_11010",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": false
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": false,
+      "scenario": "matrix_11010",
+      "type_allowed": true
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "matrix_11011",
+      "type_allowed": false
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        },
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "matrix_11011",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": false
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": false,
+      "scenario": "matrix_11011",
+      "type_allowed": true
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": true
+      },
+      "save_allowed": null,
+      "scenario": "matrix_11100",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": true
+      },
+      "save_allowed": null,
+      "scenario": "matrix_11100",
+      "type_allowed": false
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "matrix_11100",
+      "type_allowed": true
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": true
+      },
+      "save_allowed": null,
+      "scenario": "matrix_11101",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": true
+      },
+      "save_allowed": null,
+      "scenario": "matrix_11101",
+      "type_allowed": false
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        },
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "matrix_11101",
+      "type_allowed": true
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": true
+      },
+      "save_allowed": null,
+      "scenario": "matrix_11110",
+      "type_allowed": false
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "matrix_11110",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "matrix_11110",
+      "type_allowed": true
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": true
+      },
+      "save_allowed": null,
+      "scenario": "matrix_11111",
+      "type_allowed": false
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        },
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "matrix_11111",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        },
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "matrix_11111",
+      "type_allowed": true
+    }
+  ],
+  "matrix_row_count": 96,
+  "matrix_scope": "32 independent predicate/effect combinations, not sampled or necessarily reachable browser states",
+  "matrix_state_count": 32,
+  "named": [
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "expected": {
+        "any_commit": true,
+        "save_allowed": true,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "same_origin_untrusted",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "expected": {
+        "any_commit": true,
+        "save_allowed": true,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "same_origin_untrusted",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": false
+        }
+      ],
+      "expected": {
+        "any_commit": false,
+        "save_allowed": false,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": false,
+      "scenario": "same_origin_untrusted",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "expected": {
+        "any_commit": true,
+        "save_allowed": true,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "trusted_same_origin",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "expected": {
+        "any_commit": true,
+        "save_allowed": true,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "trusted_same_origin",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "expected": {
+        "any_commit": true,
+        "save_allowed": true,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "trusted_same_origin",
+      "type_allowed": true
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "expected": {
+        "any_commit": false,
+        "save_allowed": null,
+        "type_allowed": false
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-product"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": true
+      },
+      "save_allowed": null,
+      "scenario": "trusted_public_cross",
+      "type_allowed": false
+    },
+    {
+      "buffer": "invented-product",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-product"
+        }
+      ],
+      "committed": "invented-product",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "expected": {
+        "any_commit": true,
+        "save_allowed": true,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-product"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "trusted_public_cross",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-product",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-product"
+        }
+      ],
+      "committed": "invented-product",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "expected": {
+        "any_commit": true,
+        "save_allowed": true,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-product"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "trusted_public_cross",
+      "type_allowed": true
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "expected": {
+        "any_commit": false,
+        "save_allowed": null,
+        "type_allowed": false
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "untrusted_private_cross",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "expected": {
+        "any_commit": false,
+        "save_allowed": null,
+        "type_allowed": false
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "untrusted_private_cross",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "expected": {
+        "any_commit": false,
+        "save_allowed": null,
+        "type_allowed": false
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "untrusted_private_cross",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "expected": {
+        "any_commit": false,
+        "save_allowed": null,
+        "type_allowed": false
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "untrusted_public_cross",
+      "type_allowed": false
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "expected": {
+        "any_commit": true,
+        "save_allowed": true,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "untrusted_public_cross",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": false
+        }
+      ],
+      "expected": {
+        "any_commit": false,
+        "save_allowed": false,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": false,
+      "scenario": "untrusted_public_cross",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "expected": {
+        "any_commit": true,
+        "save_allowed": true,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "untrusted_argument_same",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "expected": {
+        "any_commit": true,
+        "save_allowed": true,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "untrusted_argument_same",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": false
+        }
+      ],
+      "expected": {
+        "any_commit": false,
+        "save_allowed": false,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": false,
+      "scenario": "untrusted_argument_same",
+      "type_allowed": true
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "expected": {
+        "any_commit": false,
+        "save_allowed": null,
+        "type_allowed": false
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": true
+      },
+      "save_allowed": null,
+      "scenario": "trusted_declassification_cross",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "expected": {
+        "any_commit": false,
+        "save_allowed": null,
+        "type_allowed": false
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": true
+      },
+      "save_allowed": null,
+      "scenario": "trusted_declassification_cross",
+      "type_allowed": false
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "expected": {
+        "any_commit": true,
+        "save_allowed": true,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "trusted_declassification_cross",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "expected": {
+        "any_commit": true,
+        "save_allowed": true,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "user_only_secret_untrusted_same",
+      "type_allowed": true
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "expected": {
+        "any_commit": false,
+        "save_allowed": null,
+        "type_allowed": false
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "user_only_secret_untrusted_same",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "expected": {
+        "any_commit": false,
+        "save_allowed": null,
+        "type_allowed": false
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "user_only_secret_untrusted_same",
+      "type_allowed": false
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "not_requested"
+        }
+      ],
+      "expected": {
+        "any_commit": false,
+        "save_allowed": null,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": false,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "no_save",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "not_requested"
+        }
+      ],
+      "expected": {
+        "any_commit": false,
+        "save_allowed": null,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": false,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "no_save",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "not_requested"
+        }
+      ],
+      "expected": {
+        "any_commit": false,
+        "save_allowed": null,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": false,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "no_save",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "expected": {
+        "any_commit": true,
+        "save_allowed": true,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": false,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "false_trusted_label",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "expected": {
+        "any_commit": true,
+        "save_allowed": true,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": false,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "false_trusted_label",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "expected": {
+        "any_commit": true,
+        "save_allowed": true,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "label_is_correct": false,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": true
+      },
+      "save_allowed": true,
+      "scenario": "false_trusted_label",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        },
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "expected": {
+        "any_commit": true,
+        "save_allowed": true,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "auto_submit_untrusted_same",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        },
+        {
+          "stage": "save",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": true
+        }
+      ],
+      "expected": {
+        "any_commit": true,
+        "save_allowed": true,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": true,
+      "scenario": "auto_submit_untrusted_same",
+      "type_allowed": true
+    },
+    {
+      "buffer": "invented-recovery@example.invalid",
+      "captures": [
+        {
+          "stage": "type_auto_submit",
+          "value": "invented-recovery@example.invalid"
+        }
+      ],
+      "committed": "invented-recovery@example.invalid",
+      "events": [
+        {
+          "action": "type",
+          "allowed": true
+        },
+        {
+          "action": "save",
+          "allowed": false
+        }
+      ],
+      "expected": {
+        "any_commit": true,
+        "save_allowed": false,
+        "type_allowed": true
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": true,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-a.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": true,
+        "trusted_action": false
+      },
+      "save_allowed": false,
+      "scenario": "auto_submit_untrusted_same",
+      "type_allowed": true
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "expected": {
+        "any_commit": false,
+        "save_allowed": null,
+        "type_allowed": false
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "origin_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "context_restricts_cross",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "expected": {
+        "any_commit": false,
+        "save_allowed": null,
+        "type_allowed": false
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "flow_only",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "context_restricts_cross",
+      "type_allowed": false
+    },
+    {
+      "buffer": null,
+      "captures": [],
+      "committed": null,
+      "events": [
+        {
+          "action": "type",
+          "allowed": false
+        },
+        {
+          "action": "save",
+          "allowed": null,
+          "reason": "type_held"
+        }
+      ],
+      "expected": {
+        "any_commit": false,
+        "save_allowed": null,
+        "type_allowed": false
+      },
+      "input": {
+        "argument": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "site-b.invalid",
+            "user"
+          ],
+          "trusted": true
+        },
+        "auto_submit": false,
+        "context": {
+          "origins": [
+            "site-a.invalid"
+          ],
+          "readers": [
+            "site-a.invalid",
+            "user"
+          ],
+          "trusted": false
+        },
+        "label_is_correct": true,
+        "request_save": true,
+        "target": "site-b.invalid",
+        "value": "invented-recovery@example.invalid"
+      },
+      "method": "action_flow",
+      "predicates": {
+        "permitted_flow": false,
+        "trusted_action": false
+      },
+      "save_allowed": null,
+      "scenario": "context_restricts_cross",
+      "type_allowed": false
+    }
+  ],
+  "named_fixture_count": 12,
+  "named_row_count": 36,
+  "no_model_browser_network": true,
+  "schema": 1,
+  "scope": "synthetic fixed policy predicates and in-memory action effects",
+  "source_sha256": "c89491e9ef90b2d162382b74d90fcd11cfa3cb8bf0229c9c476a1f2ddc265e39"
+}
